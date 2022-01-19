@@ -9,6 +9,7 @@ while True:
                 friend_name = input(f"Enter your friend name (number:{number + 1}) > ")
                 print(f"{friend_name} has been invited")
         else:
+
             print("Too many people")
     except:
         print("Wrong input type!!, Enter a number and try again")

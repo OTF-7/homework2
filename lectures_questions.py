@@ -1,9 +1,7 @@
-s = lambda x: x * 4
+import pafy
+import pytube
+url = input("Enter the URL of the video > ")
 
-print(s)
-def t():
-    t.y = 4
-
-
-t()
-print(t.y)
+video = pafy.new(url)
+best = video.getbest()
+print(type(best))
